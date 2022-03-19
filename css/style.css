@@ -129,3 +129,42 @@ span {
 background-color: rgb(177, 63, 63);
 
 }
+/* contact styling */
+input[type=text]{
+    color:white;
+}
+input[type=number]{
+    color:white;
+}
+input[type=email]{
+    color:white;
+}
+#mail {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 25%;
+}
+
+#names {
+    background-color: transparent;
+    border: 1px solid white;
+    width: 25%;
+}
+
+#area {
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+
+}
+#number{
+    background-color: transparent;
+    border: 1px solid white;
+    width: 25%;
+}
+#submit{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    width: 10%;
+}
