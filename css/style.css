@@ -91,3 +91,32 @@ span {
 .btn:hover {
     letter-spacing: .1rem;
 }
+/* about section */
+.abt{
+    font-family: 'Roboto', sans-serif;
+}
+#about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+#about .row .image{
+    flex:1 1 45rem;
+} 
+#about .row .image img{
+    width: 100%;
+}
+#about .row .content{
+    flex:1 1 45rem;
+    padding:1rem; 
+}
+#about .row .content h3{
+    font-size: 3rem;
+    color:#fff;
+}
+#about .row .content p{
+    font-size: 1.2rem;
+    color:#ccc;
+    padding:1rem 0; 
+    line-height: 1.5;
+}
