@@ -120,3 +120,12 @@ span {
     padding:1rem 0; 
     line-height: 1.5;
 }
+/* Menu styling */
+
+.menu-list h3{
+    font-family: 'Roboto', sans-serif;
+}
+.menu-list h3:hover{
+background-color: rgb(177, 63, 63);
+
+}
