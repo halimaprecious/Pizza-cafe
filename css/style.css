@@ -168,3 +168,14 @@ input[type=email]{
     border: 1px solid white;
     width: 10%;
 }
+/* footer */
+.foot{
+    background:rgb(92, 64, 64);
+    
+    }
+    .ftr{
+        font-family: 'Inspiration', cursive;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
