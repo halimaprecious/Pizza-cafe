@@ -37,3 +37,25 @@ body {
     height: 80vh;
     border: 1px solid rgb(253, 151, 151);
 }
+::-webkit-input-placeholder{
+    color: white;
+    }
+    .form-control{
+        background: transparent;
+        width:40%; 
+        margin-left: 32%; 
+        color: aliceblue; 
+    }
+    .order{
+        background-color: transparent;
+        color: #fff;
+        border: 1px solid white;
+        width: 20%;
+        margin-left: 32%;
+    }
+    .order:hover{
+        background-color: rgb(119, 57, 57);
+    }
+    .table{
+        color: #fff;
+    }
