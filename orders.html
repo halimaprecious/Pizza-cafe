@@ -17,29 +17,52 @@
     <div class="container">
         <h4 class="slogan text-center my-4">The right slice at the right price</h4>
         <form name="form" class="form1">
-            <label for="size">Pizza:</label>
-            <select id="size">
+
+            <select class="form-control size">
                 <option value="" disabled selected>Choose Size</option>
-                <option value="450">Small</option>
-                <option value="650">Medium</option>
-                <option value="950">Large</option>
+                <option label="Small"value="450">Small</option>
+                <option label="Medium"vvalue="650">Medium</option>
+                <option label="Large" value="950">Large</option>
             </select>
-            
-            <label for="crust">Crust:</label>
-            <select id="crust">
+            <br>
+            <select class="form-control crust">
                 <option value="" disabled selected>Choose Crust</option>
-                <option value="500">Stuffed</option>
-                <option value="200">Glutten free</option>
-                <option value="350">Cheese</option>
+                <option label="Stuffed"value="500">Stuffed</option>
+                <option label="Glutten"value="200">Glutten free</option>
+                <option label="Cheese"value="350">Cheese</option>
             </select>
-    
-            <label for="topping">Toppings:</label>
-            <select id="toppings">
+    <br>
+            <select class="form-control toppings">
                 <option value="" disabled selected>Choose Topping</option>
-                <option value="100">Hawaii</option>
-                <option value="80">Pepperoni</option>
-                <option value="60">Mashroom</option>
+                <option label="Hawaii"value="100">Hawaii</option>
+                <option label="Pepperoni"value="80">Pepperoni</option>
+                <option label="Mashroom" value="60">Mashroom</option>
             </select>
+            <br>
+            <div>
+                <button class="btn order" type="submit">Order</button>
+            </div>
+            <br>
+            <table class="table">
+                <th>
+                  <tr>
+                    <th scope="col">Order No.</th>
+                    <th scope="col">Pizza Size</th>
+                    <th scope="col">Toppings</th>
+                    <th scope="col">Crust</th>
+                    <th scope="col">Total</th>
+                  </tr>
+                </th>
+                <tbody id="pizza">
+                  <tr>
+                    <th scope="row">1</th>
+                    <td id="size"></td>
+                    <td id="toppings"></td>
+                    <td id="crust"></td>
+                    <td id="total"></td>
+                  </tr>
+                </tbody>
+              </table>
         </form>
     
     </div>
