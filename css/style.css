@@ -57,3 +57,37 @@ span {
     color: rgb(189, 140, 140);
     border-bottom: .2rem solid rgb(165, 60, 60);
 }
+/* home section styling */
+
+.content h1 {
+    font-family: 'Inspiration', cursive;
+    font-size: 80px;
+    letter-spacing: .2rem;
+}
+
+.content p {
+    font-size: 30px;
+    font-family: 'Courgette', cursive;
+}
+
+.home {
+    background-image: url("/images/piz5.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 90vh;
+    background-size: cover;
+
+}
+
+.btn {
+    margin-top: .1rem;
+    display: inline-block;
+    padding: .2rem 1rem;
+    font-size: 1.5rem;
+    color:black;
+    background: rgb(231, 188, 188);
+    cursor: pointer;
+}
+.btn:hover {
+    letter-spacing: .1rem;
+}
