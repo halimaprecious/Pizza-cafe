@@ -71,7 +71,7 @@ span {
 }
 
 .home {
-    background-image: url("/images/piz5.jpg");
+    background-image: url("./images/piz5.jpg");
     background-repeat: no-repeat;
     background-position: right;
     height: 90vh;
