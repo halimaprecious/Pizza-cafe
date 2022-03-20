@@ -48,12 +48,15 @@ $(document).ready(function () {
             // output
             $(".hidden-btns h3 span").html(totalCost);
         });
-        $(".btn.deliver").click(function () {
+        $(".deliver").click(function () {
             $(".hidden-btns h5").hide();
             $(".btn.deliver").hide();
             $(".btn.no-deliver").hide();
             $(".hidden-btns.location").show();
             $(".hidden-btns h3 span").html(totalCost + 150);
+            var location =prompt("Enter your location");
+            window.alert(`Thank you for choosing pizza-cafe. Your order will be delivered to ${location}`);
+
         });
         // no delivery
         $(".no-deliver").click(function() {
@@ -61,15 +64,8 @@ $(document).ready(function () {
             $(".hidden-btns h5").hide();
             $(".btn.no-deliver").hide();
             $(".btn.deliver").hide();
+            window.alert(`Thank you for choosing pizza-cafe.`);
           });
-          // location button
-          $(".complete").click(function(){
-              var location= $(".hidden-btns.location").val();
-            $(".hidden-btns h4").show();
-            $(".hidden-btns.location").hide();
-            $(".hidden-btns h4 span").html(location);
-          });
-
     });
 
 });
