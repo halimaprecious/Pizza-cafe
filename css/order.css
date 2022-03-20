@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: black;
+background-image: url("/images/piz66.jpg");
 }
 
 .slogan {
@@ -24,7 +24,8 @@ body {
 }
 
 .slogan:hover {
-    color: white
+    color: white;
+    background: rgb(185, 76, 76);
 }
 
 /* form style */
@@ -33,7 +34,7 @@ body {
     width: 80%;
     margin: auto;
     padding: 25px;
-    background: transparent;
+    background: rgb(139, 124, 124);
     color: white;
     height: 750px;
     border: 1px solid rgb(253, 151, 151);
