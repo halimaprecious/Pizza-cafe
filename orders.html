@@ -20,22 +20,22 @@
 
             <select class="form-control size">
                 <option value="" disabled selected>Choose Size</option>
-                <option label="Small"value="450">Small</option>
-                <option label="Medium"vvalue="650">Medium</option>
+                <option label="Small" value="450">Small</option>
+                <option label="Medium" vvalue="650">Medium</option>
                 <option label="Large" value="950">Large</option>
             </select>
             <br>
             <select class="form-control crust">
                 <option value="" disabled selected>Choose Crust</option>
-                <option label="Stuffed"value="500">Stuffed</option>
-                <option label="Glutten"value="200">Glutten free</option>
-                <option label="Cheese"value="350">Cheese</option>
+                <option label="Stuffed" value="500">Stuffed</option>
+                <option label="Glutten" value="200">Glutten free</option>
+                <option label="Cheese" value="350">Cheese</option>
             </select>
-    <br>
+            <br>
             <select class="form-control toppings">
                 <option value="" disabled selected>Choose Topping</option>
-                <option label="Hawaii"value="100">Hawaii</option>
-                <option label="Pepperoni"value="80">Pepperoni</option>
+                <option label="Hawaii" value="100">Hawaii</option>
+                <option label="Pepperoni" value="80">Pepperoni</option>
                 <option label="Mashroom" value="60">Mashroom</option>
             </select>
             <br>
@@ -45,26 +45,46 @@
             <br>
             <table class="table">
                 <th>
-                  <tr>
-                    <th scope="col">Order No.</th>
-                    <th scope="col">Pizza Size</th>
-                    <th scope="col">Toppings</th>
-                    <th scope="col">Crust</th>
-                    <th scope="col">Total</th>
-                  </tr>
+                    <tr>
+                        <th scope="col">Order No.</th>
+                        <th scope="col">Pizza Size</th>
+                        <th scope="col">Toppings</th>
+                        <th scope="col">Crust</th>
+                        <th scope="col">Total</th>
+                    </tr>
                 </th>
                 <tbody id="pizza">
-                  <tr>
-                    <th scope="row">1</th>
-                    <td id="size"></td>
-                    <td id="toppings"></td>
-                    <td id="crust"></td>
-                    <td id="total"></td>
-                  </tr>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td id="size"></td>
+                        <td id="toppings"></td>
+                        <td id="crust"></td>
+                        <td id="total"></td>
+                    </tr>
                 </tbody>
-              </table>
+            </table>
+            <!-- Delivery information -->
+            <div class="hidden-btns">
+                <div class="">
+                  <button class="btn-add" type="submit">Order Another</button>
+                  <div class="more-info text-center"><br>
+                    <h3>The total Price is:<span></span></h3>
+                    <h5>Do you want your order delivered?</h5><br>
+                    <button class="btn deliver" type="submit">Yes</button>
+                    <button class="btn no-deliver" type="submit">No</button>
+                    <div class="location text-center"><br>
+                      <input type="text" size="30" placeholder="Enter your location" required>
+                      <button class="btn complete" type="submit">Complete</button>
+                      <h4>Order confirmed! It will be delivered to your location<span></span></h4>
+                      <div>
+                      <button class="btn check-out" type="submit">Checkout</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </form>
-    
+
     </div>
 
 
@@ -78,11 +98,11 @@
 
 
 
- <!-- footer -->
- <footer class="foot">
-    <P class="ftr text-center">Pizza<span>-cafe</span></P>
-    <p class="text-center">2022</p>
-</footer>
+    <!-- footer -->
+    <footer class="foot">
+        <P class="ftr text-center">Pizza<span>-cafe</span></P>
+        <p class="text-center">2022</p>
+    </footer>
 
 
     <script src="<script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
