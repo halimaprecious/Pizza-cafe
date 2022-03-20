@@ -58,9 +58,13 @@ $(document).ready(function () {
         // no delivery
         $(".no-deliver").click(function() {
             $(".hidden-btns h3 span").html(totalCost);
+            $(".hidden-btns h5").hide();
+            $(".btn.no-deliver").hide();
+            $(".btn.deliver").hide();
           });
           // location button
           $(".complete").click(function(){
+              var location= $(".hidden-btns.location").val();
             $(".hidden-btns h4").show();
             $(".hidden-btns.location").hide();
             $(".hidden-btns h4 span").html(location);
