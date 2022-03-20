@@ -58,4 +58,62 @@ body {
     }
     .table{
         color: #fff;
+        display:none;
     }
+    /* hidden buttons */
+.check-out{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+}
+.check-out:hover{
+    background-color: rgb(119, 57, 57);
+}
+.btn-add{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white; 
+    width: 20%;
+    margin-left: 35%;
+}
+.btn-add:hover{
+    background-color: rgb(119, 57, 57);
+}
+input[type=text]{
+    background-color: transparent;
+    border: 1px solid white;
+}
+::-webkit-input-placeholder{
+    color: gray;
+}
+.complete{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    margin-left: 5%;
+}
+.complete:hover{
+    background-color: rgb(119, 57, 57);
+}
+.deliver{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    width: 10%;
+}
+.deliver:hover{
+    background-color: rgb(119, 57, 57);
+}
+.no-deliver{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    width: 10%;
+    margin-left: 5%;
+}
+.no-deliver:hover{
+    background-color: rgb(119, 57, 57);
+}
+.hidden-btns{
+    display:none;
+}
