@@ -53,7 +53,7 @@ I should have an option to to have the pizza delivered or not.
 an alert showing how much the delivery charge will be and another alert sayiong "your order will be delivered to your location." 
 
 ## LIve link
-[live link]()
+- Checkout the live link-[live link](https://halimaprecious.github.io/Pizza-cafe/)
 
 ## Contact
 GitHub- [Precious Halima](https://github.com/halimaprecious) 
