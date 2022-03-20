@@ -34,26 +34,29 @@ body {
     padding: 25px;
     background: transparent;
     color: white;
-    height: 80vh;
+    height: 700px;
     border: 1px solid rgb(253, 151, 151);
 }
 ::-webkit-input-placeholder{
-    color: white;
+    color: gray;
     }
     .form-control{
         background: transparent;
-        width:40%; 
-        margin-left: 32%; 
+        width:35%; 
+        margin-left: 35%; 
         color: aliceblue; 
     }
-    .order{
+    .form-control:hover{
+        background:   rgb(119, 57, 57);
+      }
+    .btn-order{
         background-color: transparent;
         color: #fff;
         border: 1px solid white;
         width: 20%;
-        margin-left: 32%;
+        margin-left: 35%;
     }
-    .order:hover{
+    .btn-order:hover{
         background-color: rgb(119, 57, 57);
     }
     .table{
@@ -65,6 +68,7 @@ body {
     background-color: transparent;
     color: #fff;
     border: 1px solid white;
+    display: none;
 }
 .check-out:hover{
     background-color: rgb(119, 57, 57);
@@ -75,6 +79,7 @@ body {
     border: 1px solid white; 
     width: 20%;
     margin-left: 35%;
+    display: none;
 }
 .btn-add:hover{
     background-color: rgb(119, 57, 57);
@@ -116,4 +121,20 @@ input[type=text]{
 }
 .hidden-btns{
     display:none;
+}
+.btn{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    width: 10%;
+}
+.rest{
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid white;
+    width: 10%;
+}
+/* footer */
+.foot{
+  color: #fff;
 }
