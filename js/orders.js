@@ -55,6 +55,9 @@ $(document).ready(function () {
             $(".hidden-btns.location").show();
             $(".hidden-btns h3 span").html(totalCost + 150);
             var location =prompt("Enter your location");
+            if (location==""){
+                var location =prompt("Please enter a location");
+            }else
             window.alert(`Thank you for choosing pizza-cafe. Your order will be delivered to ${location}`);
 
         });
