@@ -15,6 +15,8 @@
 "The right slice at the right price".
 Everything you need will be delivered to you.
 
+<p align="center"><img src="https://user-images.githubusercontent.com/99921988/162409027-eb432d95-3774-4d95-9821-09b875f631c9.png" height="300px" width = "70%"> </p>
+
 ## Prerequisites
 - Have git installed.
 - Have a text editor installed. eg VS code ,Atom
